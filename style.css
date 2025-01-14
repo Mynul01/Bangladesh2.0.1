@@ -162,8 +162,18 @@ text-align: center;
 padding: 10px;
 background-color: lightseagreen;
 border: none;
-border-radius: 10px;
+border-radius: 5px;
+height: 53px;
+cursor: pointer;
 }
+.btn-donate:hover {
+    background-color: rgb(32, 190, 211);
+    font-size: 15px;
+  }
+  .btn-donate:active {
+    background-color: rgb(126, 126, 121);
+    font-size: 15px;
+  }
 .div-6{
     background-color: lightskyblue;
     padding: 10px;
@@ -175,7 +185,16 @@ border-radius: 10px;
     border: none;
     justify-content: center;
     border-radius: 5px;
+    cursor: pointer;;
 }
 .last-div{
     text-align: center;
+}
+.width{
+    width: 1000px;
+    height: 50px;
+}
+.width-1{
+    width: 500px;
+    height: 50px;
 }
