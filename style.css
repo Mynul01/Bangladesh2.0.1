@@ -93,5 +93,89 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
+.quote-bg{
+    position: absolute;
+}
+.div-3{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+}
+.table
+    table, th, td {
+        border:1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+}
+.table-div{
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.opinion{
+    padding: 10px;
+}
+.yess{
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.div-4{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.satelite{
+    height: 200px;
+    border-radius: 10px;
+}
+.btn-donate{
+    background-color: rgb(255, 255, 255);
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100PX;
+}
+.flex-3{
+    display: flex;
+    border-radius: 10px;
+    gap: 100px;  
+    justify-content: center;
+}
+.div-5{
 
-
+    padding: 10px;
+    border-radius: 10px;
+}
+.donate-now{
+text-align: center;
+padding: 10px;
+background-color: lightseagreen;
+border: none;
+border-radius: 10px;
+}
+.div-6{
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.flex-4{
+    display: flex;
+    padding: 15px;
+    border: none;
+    justify-content: center;
+    border-radius: 5px;
+}
+.last-div{
+    text-align: center;
+}
