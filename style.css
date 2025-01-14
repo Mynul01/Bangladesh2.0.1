@@ -1,0 +1,97 @@
+.conteiner{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-color: rgb(218, 222, 226);
+    font-family: sans-serif;
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero{
+    position: relative;
+}
+.flex{
+    display: flex;
+    background-color: rgb(89, 228, 181);
+    padding: 20px;
+    border-radius: 10px;
+}
+.banner-btn{
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(10, 163, 69);
+    font-weight: bold;
+    cursor: pointer;
+}
+.card{
+    border: none;
+    background-color: whitesmoke;
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+.flex-2{
+    display: flex;
+    border-radius: 10px;
+    gap: 20px;  
+    justify-content: space-between;
+}
+.card-1{
+    background-color: lightseagreen;
+    border: none;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+}
+.btn-learn-more-1{
+    background-color:rgb(5, 131, 125);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-2{
+    background-color:  rgb(132, 184, 233);
+    border: none;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+}
+.btn-learn-more-2{
+    background-color: rgb(42, 142, 204);
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-3{
+    background-color: rgb(226, 210, 157);
+    border: none;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+}
+.btn-learn-more-3{
+    background-color: rgb(224, 182, 41);
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
