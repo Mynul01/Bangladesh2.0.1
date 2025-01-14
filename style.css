@@ -170,10 +170,6 @@ cursor: pointer;
     background-color: rgb(32, 190, 211);
     font-size: 15px;
   }
-  .btn-donate:active {
-    background-color: rgb(126, 126, 121);
-    font-size: 15px;
-  }
 .div-6{
     background-color: lightskyblue;
     padding: 10px;
