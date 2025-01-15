@@ -104,18 +104,19 @@ body{
 }
 .table
     table, th, td {
-        border:1px solid black;
+        border: 1px solid rgb(184, 182, 182);
         border-collapse: collapse;
         width: 100%;
 }
 .table-div{
-    background-color: lightsteelblue;
+    background-color: rgb(151, 185, 230);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 .opinion{
     padding: 10px;
@@ -134,7 +135,7 @@ body{
     border-radius: 10px;
 }
 .satelite{
-    height: 200px;
+    height: 250px;
     border-radius: 10px;
 }
 .btn-donate{
@@ -153,7 +154,6 @@ body{
     justify-content: center;
 }
 .div-5{
-
     padding: 10px;
     border-radius: 10px;
 }
@@ -162,9 +162,11 @@ text-align: center;
 padding: 10px;
 background-color: lightseagreen;
 border: none;
-border-radius: 5px;
 height: 53px;
 cursor: pointer;
+border-radius: 10px;
+width: 100px;
+height: 50px;
 }
 .btn-donate:hover {
     background-color: rgb(32, 190, 211);
@@ -172,25 +174,39 @@ cursor: pointer;
   }
 .div-6{
     background-color: lightskyblue;
-    padding: 10px;
+    padding: 100px;
     border-radius: 10px;
+}
+.flex-donate-now{
+    justify-items: center;
+    align-items: center;
 }
 .flex-4{
     display: flex;
     padding: 15px;
     border: none;
     justify-content: center;
-    border-radius: 5px;
-    cursor: pointer;;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .last-div{
-    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
-.width{
+.enter-mail{
     width: 1000px;
     height: 50px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
 }
 .width-1{
-    width: 500px;
+    width: 510px;
     height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
 }
