@@ -116,7 +116,6 @@ body{
     height: 50px;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 .opinion{
     padding: 10px;
@@ -176,6 +175,8 @@ height: 50px;
     background-color: lightskyblue;
     padding: 100px;
     border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .flex-donate-now{
     justify-items: center;
@@ -183,7 +184,7 @@ height: 50px;
 }
 .flex-4{
     display: flex;
-    padding: 15px;
+    padding: 10px;
     border: none;
     justify-content: center;
     cursor: pointer;
@@ -209,4 +210,13 @@ height: 50px;
     text-align: center;
     border-radius: 5px;
     border: none;
+}
+.section{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.quistion-div{
+    background-color: azure;
+    padding: 15px;
+    border-radius: 10px;
 }
